@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class palindrome {
     public static boolean isPalindrome(String s) {
       
@@ -19,7 +20,9 @@ public class palindrome {
     public static void main(String[] args) {
       
         // Input string
-        String s = "Level";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the String");
+        String s=sc.next();
 
         // Check if the string is a palindrome
         boolean res = isPalindrome(s);

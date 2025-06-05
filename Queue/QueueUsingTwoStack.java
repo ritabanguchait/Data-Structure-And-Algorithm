@@ -65,7 +65,7 @@ public class QueueUsingTwoStack {
 
         // Trying to remove from an empty queue
         System.out.println("Attempt to remove from an empty queue:");
-        int a =remove(); // Should print "Queue is Empty"
+        int a = remove(); // Should print "Queue is Empty"
         System.out.println("Removed value: " + a);
 
         // Final empty state check
